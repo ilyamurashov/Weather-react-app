@@ -1,0 +1,49 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #00c4ec;
+  background: -webkit-gradient(linear, left top, right top, from(#00c4ec), color-stop(0%, #137cb6), to(#010d52));
+  background: linear-gradient(90deg, #00c4ec 0%, #137cb6 0%, #010d52 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c4ec",endColorstr="#010d52",GradientType=1);
+}
+
+.wrapper .main-block {
+  width: 40%;
+  height: 30%;
+  padding: 10% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  background: #137cb6;
+  background: linear-gradient(163deg, #137cb6 0%, #ebebeb 0%, #a0c6e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#137cb6",endColorstr="#a0c6e8",GradientType=1);
+}
+
+.wrapper .main-block .main-indicators {
+  width: 40%;
+  font-size: 16px;
+}
+/*# sourceMappingURL=app.css.map */
